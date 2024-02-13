@@ -1,0 +1,6 @@
++====================+===================+===============================================================+
+| Launch Setup Clock | Launch Hold Clock | Pin                                                           |
++====================+===================+===============================================================+
+| virtual_clock      | virtual_clock     | system_i/uart_led_0/inst/meta_harden_rst_i0/signal_meta_reg/D |
+| virtual_clock      | virtual_clock     | system_i/uart_led_0/inst/meta_harden_btn_i0/signal_meta_reg/D |
++--------------------+-------------------+---------------------------------------------------------------+

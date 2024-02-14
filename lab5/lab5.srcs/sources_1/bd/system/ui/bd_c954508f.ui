@@ -1,0 +1,28 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.886667",
+   "Default View_TopLeft":"-325,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 2 -x 320 -y 80 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 2 -x 320 -y 100 -defaultsOSRD
+preplace port port-id_btn_pin -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port port-id_rst_pin -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_clk_pin -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace portBus led_pins -pg 1 -lvl 2 -x 320 -y 220 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 160 -y 80 -defaultsOSRD
+preplace inst uart_led_0 -pg 1 -lvl 1 -x 160 -y 220 -defaultsOSRD
+preplace netloc btn_pin_0_1 1 0 1 NJ 220
+preplace netloc rst_pin_0_1 1 0 1 NJ 240
+preplace netloc clk_pin_0_1 1 0 1 NJ 200
+preplace netloc uart_led_0_led_pins 1 1 1 NJ 220
+preplace netloc processing_system7_0_DDR 1 1 1 NJ 80
+preplace netloc processing_system7_0_FIXED_IO 1 1 1 NJ 100
+levelinfo -pg 1 0 160 320
+pagesize -pg 1 -db -bbox -sgen -100 0 450 300
+"
+}
+{
+   "da_ps7_cnt":"1"
+}
